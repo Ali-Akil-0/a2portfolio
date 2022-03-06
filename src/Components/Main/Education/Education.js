@@ -5,7 +5,7 @@ import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import FrontAnimation from "../FrontAnimation";
 const Education = () => {
   return (
-    <div className="bg-[#1d1d1d] overflow-x-hidden relative  snap-start h-[100vh]">
+    <div className="bg-[#1d1d1d] overflow-y-hidden overflow-x-hidden relative  snap-start h-[100vh]">
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-[73px] mt-[60px] text-[#46acd1] the_title">
           Education
