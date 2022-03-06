@@ -5,17 +5,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
 .the_title {
   font-family: "Work Sans", serif;
+}
+.the_description {
+  font-family: "Manrope", sans-serif;
+}
+.CardTitle {
+  font-family: "Lato", sans-serif;
+}
+.CardSchool {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.CardPeriod {
+  font-family: "Raleway", sans-serif;
 }
 
 body {
   box-sizing: border-box;
   overflow-x: hidden;
-  overflow: hidden;
 }
 body::-webkit-scrollbar {
+  display: none;
+}
+/* * {
+  overflow-x: hidden;
+} */
+*::-webkit-scrollbar {
   display: none;
 }
 
@@ -29,4 +51,17 @@ body::-webkit-scrollbar {
   .letter_hover {
     @apply transition hover:cursor-pointer hover:border-b hover:border-[#08fdd8]  bg-transparent hover:shadow-[#08fdd8] hover:text-[#08fdd8] ease-in-out delay-150 hover:-translate-y-1 hover:text-[95px];
   }
+  .cards {
+    @apply bg-[#f2e3d0] flex-[0.7] rounded-lg w-[550px] mb-[15px] p-[10px] flex items-center;
+  }
+}
+
+.tagcloud {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+}
+.tagcloud--item:hover {
+  color: #36454f;
 }

@@ -124,7 +124,7 @@ function AnimationCanvas() {
 
 const FrontAnimation = () => {
   return (
-    <div className="anim z-[-10] h-[35vh]">
+    <div className="anim flex-[0.9] z-[-10] h-[35vh] pointer-events-none">
       <Suspense fallback={<div>Loading...</div>}>
         <AnimationCanvas />
       </Suspense>

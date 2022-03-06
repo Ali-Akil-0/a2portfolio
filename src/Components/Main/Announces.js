@@ -6,10 +6,10 @@ import { DatePicker, MuiPickersUtilsProvider } from "@material-ui/pickers";
 
 const Announces = () => {
   return (
-    <div className="pr-10 ">
-      <div className="bg-black shadow-2xl rounded-[4px] border-[1px] border-white flex flex-col items-center">
+    <div className="pr-10 z-[10] ">
+      <div className="bg-black shadow-md shadow-[#46acd1] rounded-[4px] border-[1px] border-white flex flex-col items-center">
         <img
-          className="flex shadow-2xl mb-[-10px]"
+          className="flex shadow-2xl mb-[-20px]"
           alt="loading..."
           src="https://media1.giphy.com/media/6LT7nbZXv4orPnjufH/giphy.gif?cid=ecf05e47xfqay1wtxd4hacf9fi9o2po9724j5xa8rn2jlbec&rid=giphy.gif&ct=g"
         />
