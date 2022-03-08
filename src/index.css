@@ -10,6 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 .the_title {
   font-family: "Work Sans", serif;
@@ -57,6 +58,34 @@
   position: relative;
   transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 }
+.animations2 {
+  animation: moving 1s infinite;
+}
+@keyframes moving {
+  0%,
+  100% {
+    transform: translateX(-1%);
+    animation-timing-function: cubic-bezier(5, 0, 10, 10);
+  }
+  50% {
+    transform: translateX(1%);
+    animation-timing-function: cubic-bezier(5, 0, 0.2, 1);
+  }
+}
+.animations3 {
+  animation: moving2 1s infinite;
+}
+@keyframes moving2 {
+  0%,
+  100% {
+    transform: translateY(-10%);
+    animation-timing-function: cubic-bezier(5, 0, 10, 10);
+  }
+  50% {
+    transform: translateY(10%);
+    animation-timing-function: cubic-bezier(5, 0, 0.2, 1);
+  }
+}
 
 body {
   box-sizing: border-box;
@@ -83,7 +112,7 @@ body::-webkit-scrollbar {
     @apply transition hover:cursor-pointer hover:border-b hover:border-[#08fdd8]  bg-transparent hover:shadow-[#08fdd8] hover:text-[#08fdd8] ease-in-out delay-150 hover:-translate-y-1 hover:text-[95px];
   }
   .cards {
-    @apply bg-[#f2e3d0] flex-[0.7] rounded-lg w-[550px] mb-[15px] p-[10px] flex items-center;
+    @apply bg-[#f2e3d0] flex-[0.7] rounded-lg w-[60%] max-w-[400px] mb-[15px] p-[10px] flex items-center;
   }
 }
 
@@ -95,4 +124,200 @@ body::-webkit-scrollbar {
 }
 .tagcloud--item:hover {
   color: #36454f;
+}
+@media (max-width: 1361px) {
+  .sidebar {
+    display: none;
+    visibility: hidden;
+  }
+  .The_main {
+    flex: 1;
+    width: 100vw;
+  }
+  .front {
+    flex: 1;
+    width: 100vw;
+  }
+}
+@media (min-width: 1361px) {
+  .sidebar {
+    display: inline;
+    visibility: visible;
+  }
+  .The_main {
+    flex: 0.9;
+    width: 90vw;
+  }
+  .front {
+    flex: 0.9;
+    width: 90vw;
+  }
+}
+
+@media (max-width: 1132px) {
+  .title {
+    font-size: 50px;
+  }
+  .special_title {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1197px) {
+  .about {
+    margin-top: 30px;
+  }
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .skills {
+    font-size: 5px;
+    margin-top: 10px;
+  }
+}
+/* .skills {
+  font-family: "Poppins", sans-serif;
+} */
+
+@media (max-width: 970px) {
+  .announcing {
+    display: none;
+    visibility: hidden;
+  }
+  .CV {
+    margin-top: 50px;
+    margin-bottom: -120px;
+  }
+  .special_title {
+    font-size: 80px;
+  }
+  .bouncing_down {
+    display: none;
+    visibility: hidden;
+  }
+  /* .sky_animation {
+    display: none;
+    visibility: hidden;
+  } */
+  .about_me {
+    height: 200vh;
+    overflow-y: visible;
+  }
+  .aboutSkills {
+    display: none;
+    visibility: hidden;
+  }
+  .mainTechnologies {
+    display: none;
+    visibility: hidden;
+  }
+  .about_me {
+    flex: 1;
+    padding: 5% 5%;
+    padding-top: 2%;
+  }
+  .skills_desc {
+    flex: 1;
+    padding: 5% 5%;
+    padding-top: 2%;
+  }
+  .my_Skills {
+    height: 170vh;
+    overflow-y: visible;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .bottom_skills {
+    display: inline;
+  }
+  .sky_animation {
+    margin-top: 140vh;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .seeMore {
+    margin-top: 20px;
+  }
+  .Button_left_margin {
+    margin-left: 0px;
+  }
+  .ProjectsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .Extra_Grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .That_extra {
+    height: 150vh;
+    overflow-y: visible;
+  }
+  .bottomAnimations {
+    margin-top: 140vh;
+  }
+  .ContactPage {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactForm {
+    flex: 1;
+  }
+  .ExpandContact {
+    height: 170vh;
+    overflow-y: visible;
+  }
+  .marker {
+    display: none;
+    visibility: hidden;
+  }
+  .ExtraTitle {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 970px) {
+  .PFA {
+    display: none;
+    visibility: hidden;
+  }
+  .sky_animation {
+    margin-top: 70vh;
+  }
+  .bottomAnimations {
+    margin-top: 70vh;
+  }
+  .newMain {
+    display: none;
+    visibility: hidden;
+  }
+}
+.Nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  width: 40vw;
+  z-index: 100;
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+li {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-weight: 600;
+}
+.closeWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.The_Nav {
+  transition: transform 0.2s rgba(0, 0, 0, 0.2);
 }

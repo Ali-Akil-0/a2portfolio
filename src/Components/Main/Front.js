@@ -14,13 +14,13 @@ const Front = () => {
         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap"
         rel="stylesheet"
       />
-      <div className="relative overflow-x-hidden snap-start h-[100%] bg-[#1d1d1d] overflow-hidden">
+      <div className="relative front overflow-x-hidden snap-start h-[100%] bg-[#1d1d1d] overflow-hidden">
         <div className="absolute overflow-x-hidden z-[0] h-[200px] w-[200px] opacity-20">
           <img src={PhotoOfTheWeek} alt="PhotoOfTheWeek" />
         </div>
         <div className="ml-[38px] ">
           <p className="absolute animate-bounce  text-gray-600 opacity-50   justify-center mt-[85vh]  ml-[84vw]  text-md  z-[200] ">
-            <div className="flex flex-col max-w-[50px] items-center justify-between">
+            <div className="flex bouncing_down flex-col max-w-[50px] items-center justify-between">
               <span className="  pr-[2px] pl-[20px] pb-[10px] transform -rotate-90">
                 down
               </span>
@@ -44,7 +44,7 @@ const Front = () => {
         <div className=" relative p-10">
           <div className="flex justify-between mb-[-30px]">
             <div className="mt-[40px] pt-10  pl-10 flex-0.6">
-              <div className="the_title  transition duration-200 ease-in-out font-[Work] text-[80px] leading-[70px] text-white">
+              <div className="the_title  special_title   transition duration-200 ease-in-out font-[Work] text-[80px] leading-[70px] text-white">
                 {/* Title */}
                 <h1 className="mb-4 tracking-wide">
                   <span className=" transition hover:border-b hover:border-[#08fdd8]  bg-transparent hover:shadow-[#08fdd8] hover:text-[#08fdd8] ease-in-out delay-150 hover:-translate-y-1 hover:text-[95px] duration-200 ">
@@ -83,14 +83,14 @@ const Front = () => {
                 MERN Stack enthusiast
               </div>
             </div>
-            <div className="flex-0.4">
+            <div className="flex-0.4 announcing announcing">
               <Announces />
             </div>
           </div>
 
-          <div className=" p-2 cursor-pointer pl-10 z-1  text-[#46acd1] mb-[-105px] ">
+          <div className=" p-2 cursor-pointer pl-10 z-1 CV  text-[#46acd1] mb-[-140px] ">
             {/* Button */}
-            <button className=" border-2 shadow-md shadow-[#46acd1]  border-[#46acd1] bg-transparent px-10 py-1 text-[18px] font-semibold leading-10 tracking-[4px]">
+            <button className="hover:bg-[#46acd1] transition duration-300 ease-in-out hover:text-[#1d1d1d] hover:shadow-transparent border-2 shadow-md shadow-[#46acd1]  border-[#46acd1] bg-transparent px-10 py-1 text-[18px] font-semibold leading-10 tracking-[4px]">
               <div className="flex items-center  justify-between px-4 w-[100px] ">
                 <p className="mr-2 font-bold">CV</p>
                 <DownloadIcon />

@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <div className="bg-[#1d1d1d] overflow-y-hidden overflow-x-hidden relative  snap-start h-[100vh]">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-[73px] mt-[60px] text-[#46acd1] the_title">
+        <h1 className="text-[73px] title mt-[60px] text-[#46acd1] the_title">
           Education
         </h1>
         <div className="cards mt-[30px] opacity-90 ">
@@ -24,7 +24,7 @@ const Education = () => {
             <p className="text-[13px] CardPeriod">July 2018</p>
           </div>
         </div>
-        <div className="bg-[#bde6f0]  mr-[200px] cards opacity-95 ">
+        <div className="bg-[#bde6f0]  mr-[30%] cards opacity-95 ">
           <div className="bg-[#155b6a] rounded-full  h-[55px] mr-[15px]">
             <LocalLibraryIcon className="text-2xl mt-[15px] mx-[15px]" />
           </div>

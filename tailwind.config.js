@@ -4,10 +4,8 @@ module.exports = {
     extend: {
       keyframes: {
         bounce: {
-          "0%,20%,50%,80%, 100%": { transform: "translateY(0)" },
-          "40%": { transform: "translate(5px)" },
-
-          "60%": { transform: "translate(3px)" },
+          "0%,100%": { transform: "translateY(-1%)" },
+          "40%": { transform: "translateX(1px)" },
         },
       },
     },

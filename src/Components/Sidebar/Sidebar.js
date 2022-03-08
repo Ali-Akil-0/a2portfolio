@@ -6,7 +6,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 const Sidebar = () => {
   return (
     <>
-      <div className="fixed w-[10vw] shadow-2xl">
+      <div className="fixed sidebar w-[10vw] shadow-2xl">
         <div
           className="  flex h-[100vh] w-[100%] flex-col
       items-center bg-black 
