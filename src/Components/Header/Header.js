@@ -4,6 +4,8 @@ import { IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Ali from "../../assets/Ali_No_bg.png";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -40,10 +42,10 @@ const Header = () => {
                 </IconButton>
               </div>
             </div>
-            <div className="md:w-100 md:h-100 relative mb-[-10px]  h-40 w-40">
+            <div className="md:w-100 md:h-100 relative ml-[40px] mt-[10px] mb-[8px]  h-20 w-20">
               <Link to="/">
                 <img
-                  src="https://logodix.com/logo/1961524.png"
+                  src={Ali}
                   layout="fill"
                   alt="A2Logo"
                   className="shadow-md"
@@ -51,7 +53,7 @@ const Header = () => {
               </Link>
             </div>
             <div className="flex flex-col items-center ">
-              <h1 className=" the_title text-[27px] font-bold tracking-wider text-white">
+              <h1 className=" the_title text-[27px] font-bold tracking-wider text-black">
                 Ali Akil
               </h1>
               <h3 className="font-mono text-[12px] tracking-wide text-gray-400 ">

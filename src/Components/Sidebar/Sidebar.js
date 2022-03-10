@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import Ali from "../../assets/Ali_No_bg.png";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,17 +15,17 @@ import {
 const Sidebar = () => {
   return (
     <>
-      <div className="fixed sidebar w-[10vw] shadow-2xl">
+      <div className="fixed sidebar overflow-scroll w-[10vw] shadow-2xl">
         <div
           className="  flex h-[100vh] w-[100%] flex-col
       items-center bg-black 
       "
         >
           <div className="flex flex-col">
-            <div className="md:w-100 md:h-100 relative mb-[-10px]  h-40 w-40">
+            <div className="md:w-100 md:h-100 relative ml-[10px] mt-[10px] mb-[10px]  h-20 w-20">
               <Link to="/">
                 <img
-                  src="https://logodix.com/logo/1961524.png"
+                  src={Ali}
                   layout="fill"
                   alt="A2Logo"
                   className="shadow-md"

@@ -73,21 +73,23 @@ const Projects = () => {
 
             <div className="text-white grid gap-[25px] grid-cols-3 ProjectsGrid">
               <Fade>
-                <div className="Wrap relative ">
+                <div className="Wrap relative z-[-1] ">
                   <img
                     src={A2zone}
                     alt="ProjectImage"
-                    className="imageTransition z-20"
+                    className="imageTransition z-[-1]"
                   />
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
-                    <a
+                    <LanguageIcon className=" absolute z-10 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    {/* <a
                       href="https://github.com/Ali-Akil-0"
                       target="_blank"
                       rel="noreferrer"
-                    >
-                      <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
-                    </a>
+                    > */}
+                    <Link to="/">
+                      <GitHubIcon className=" absolute z-10 bottom-2 right-[50px] text-[#787878]" />
+                    </Link>
+                    {/* </a> */}
                   </div>
                 </div>
               </Fade>
@@ -143,14 +145,15 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
+
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    <LanguageIcon className=" absolute z-300 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
                       href="https://github.com/Ali-Akil-0"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
+                      <GitHubIcon className=" absolute z-300 bottom-2 right-[50px] text-[#787878]" />
                     </a>
                   </div>
                 </div>
