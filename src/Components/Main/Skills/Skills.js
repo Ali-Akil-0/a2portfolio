@@ -2,6 +2,14 @@ import React from "react";
 import FrontAnimation from "../FrontAnimation";
 import MainTechnologies from "../../MainTechnologies/MainTechnologies";
 import { Fade } from "react-awesome-reveal";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams,
+} from "react-router-dom";
 
 const Skills = () => {
   return (
@@ -48,9 +56,16 @@ const Skills = () => {
             </div>
             <div>
               <Fade>
-                <p className="text-[13px]  z-[150] mt-[30px] visit tracking-[2px] text-[#46acd1]">
-                  Visit my LinkedIn profile for more details or just contact me.
-                </p>
+                <a
+                  href="https://github.com/Ali-Akil-0"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p className="text-[13px]  z-[150] mt-[30px] visit tracking-[2px] text-[#46acd1]">
+                    Visit my LinkedIn profile for more details or just contact
+                    me.
+                  </p>
+                </a>
               </Fade>
             </div>
           </div>

@@ -12,6 +12,14 @@ import FrontAnimation from "../FrontAnimation";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
 import { Fade } from "react-awesome-reveal";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams,
+} from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -42,9 +50,15 @@ const Projects = () => {
             {/* Button */}
             <button className="hover:bg-[#46acd1] text-[#46acd1]  hover:text-[#1d1d1d] hover:shadow-black   transition duration-300 ease-in-out border-2 py-[10px] px-[36px] mt-[130px] seeMore shadow-md shadow-[#46acd1]  border-[#46acd1] bg-transparent text-[18px] font-semibold leading-10 tracking-[4px]">
               <Fade>
-                <p className="mr-2 font-bold flex items-center">
-                  See more! <GitHubIcon />{" "}
-                </p>
+                <a
+                  href="https://github.com/Ali-Akil-0"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p className="mr-2 font-bold flex items-center">
+                    See more! <GitHubIcon />{" "}
+                  </p>
+                </a>
               </Fade>
             </button>
           </div>

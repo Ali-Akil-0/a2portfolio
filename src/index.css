@@ -130,6 +130,9 @@ body::-webkit-scrollbar {
     display: none;
     visibility: hidden;
   }
+  .sidebarLeft {
+    flex: 0;
+  }
   .The_main {
     flex: 1;
     width: 100vw;

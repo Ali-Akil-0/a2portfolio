@@ -7,6 +7,14 @@ import PhotoOfTheWeek from "../../assets/PhotoOfTheWeek.png";
 import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
 import { Zoom } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams,
+} from "react-router-dom";
 
 // import { Fade bottom } from "react-awesome-reveal";
 const Front = () => {
@@ -22,6 +30,7 @@ const Front = () => {
         <div className="absolute overflow-x-hidden z-[0] h-[200px] w-[200px] opacity-20">
           <img src={PhotoOfTheWeek} alt="PhotoOfTheWeek" />
         </div>
+
         <div className="ml-[38px] ">
           <p className="absolute animate-bounce  text-gray-600 opacity-50   justify-center mt-[85vh]  ml-[84vw]  text-md  z-[19] ">
             <div className="flex bouncing_down flex-col max-w-[50px] items-center justify-between">

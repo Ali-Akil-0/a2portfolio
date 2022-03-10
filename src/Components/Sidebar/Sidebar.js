@@ -3,6 +3,14 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams,
+} from "react-router-dom";
 const Sidebar = () => {
   return (
     <>
@@ -14,12 +22,14 @@ const Sidebar = () => {
         >
           <div className="flex flex-col">
             <div className="md:w-100 md:h-100 relative mb-[-10px]  h-40 w-40">
-              <img
-                src="https://logodix.com/logo/1961524.png"
-                layout="fill"
-                alt="A2Logo"
-                className="shadow-md"
-              />
+              <Link to="/">
+                <img
+                  src="https://logodix.com/logo/1961524.png"
+                  layout="fill"
+                  alt="A2Logo"
+                  className="shadow-md"
+                />
+              </Link>
             </div>
             <div className="flex flex-col items-center ">
               <h1 className=" the_title text-[27px] font-bold tracking-wider text-white">
@@ -32,16 +42,38 @@ const Sidebar = () => {
           </div>
           <div className=" border-1 mt-5 flex w-[100%] flex-grow flex-col items-center border-t border-gray-500 bg-[#181818] shadow-lg">
             <div className="flex flex-1 flex-col">
-              <SidebarCols title="About" />
-              <SidebarCols title="Education" />
-              <SidebarCols title="Skills" />
-              <SidebarCols title="Projects" />
-              <SidebarCols title="Contact me" contact="true" />
+              <Link to="/About">
+                <SidebarCols title="About" />
+              </Link>
+              <Link to="/Education">
+                <SidebarCols title="Education" />
+              </Link>
+              <Link to="/Skills">
+                <SidebarCols title="Skills" />
+              </Link>
+              <Link to="/Projects">
+                <SidebarCols title="Projects" />
+              </Link>
+              <Link to="/Contact">
+                <SidebarCols title="Contact me" contact="true" />
+              </Link>
             </div>
             <div>
               <div className="mb-5 mt-4 flex w-[60px] items-center justify-between">
-                <LinkedInIcon className=" text-[#787878]" />
-                <GitHubIcon className=" text-[#787878]" />
+                <a
+                  href="https://www.linkedin.com/in/akilali-/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <LinkedInIcon className=" text-[#787878]" />
+                </a>
+                <a
+                  href="https://github.com/Ali-Akil-0"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GitHubIcon className=" text-[#787878]" />
+                </a>
               </div>
             </div>
           </div>
