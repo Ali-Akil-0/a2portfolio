@@ -2,6 +2,8 @@ import React from "react";
 import InsertInvitationIcon from "@mui/icons-material/InsertInvitation";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
+import { Fade } from "react-awesome-reveal";
+
 // date-fns
 // or @mui/lab/Adapter{Dayjs,Luxon,Moment} or any valid date-io adapter
 import { DatePicker, MuiPickersUtilsProvider } from "@material-ui/pickers";
@@ -10,29 +12,41 @@ const Announces = () => {
   return (
     <div className="pr-10 z-[10] ">
       <div className="bg-black shadow-md shadow-[#46acd1] rounded-[4px] border-[1px] border-white flex flex-col items-center">
-        <img
-          className="flex shadow-2xl mb-[-50px]"
-          alt="loading..."
-          src="https://media1.giphy.com/media/6LT7nbZXv4orPnjufH/giphy.gif?cid=ecf05e47xfqay1wtxd4hacf9fi9o2po9724j5xa8rn2jlbec&rid=giphy.gif&ct=g"
-        />
-        <p className="text-[60px] the_title text-red-500 shadow-2xl border-t-indigo-0  w-100 ">
-          PFA!!
-        </p>
+        <Fade>
+          <img
+            className="flex shadow-2xl mb-[-50px]"
+            alt="loading..."
+            src="https://media1.giphy.com/media/6LT7nbZXv4orPnjufH/giphy.gif?cid=ecf05e47xfqay1wtxd4hacf9fi9o2po9724j5xa8rn2jlbec&rid=giphy.gif&ct=g"
+          />
+        </Fade>
+        <Fade>
+          <p className="text-[60px] the_title text-red-500 shadow-2xl border-t-indigo-0  w-100 ">
+            PFA!!
+          </p>
+        </Fade>
 
         <div>
           <div className=" p-2 rounded-md shadow-2xl the_description ">
-            <p className="text-white mb-[10px] text-[13px] ml-[10px] font-bold">
-              I am always on the look for <br /> a
-              <span className="text-red-500 "> PFA</span> internship opportunity
-            </p>
-            <p className=" text-[#00e676]  ml-[10px] text-[13px]">
-              <PhoneIcon />
-              <span className="ml-[10px]">+212 653088699</span>
-            </p>
-            <p className="text-[#abc9fa] mb-[7px]  ml-[10px] text-[13px]">
-              <EmailIcon />
-              <span className="ml-[10px]">aliakil.a2.dev@gmail.com </span>
-            </p>
+            <Fade>
+              <p className="text-white mb-[10px] text-[13px] ml-[10px] font-bold">
+                I am always on the look for <br /> a
+                <span className="text-red-500 "> PFA</span> internship
+                opportunity
+              </p>
+            </Fade>
+            <Fade>
+              <p className=" text-[#00e676]  ml-[10px] text-[13px]">
+                <PhoneIcon />
+                <span className="ml-[10px]">+212 653088699</span>
+              </p>
+            </Fade>
+            <Fade>
+              <p className="text-[#abc9fa] mb-[7px]  ml-[10px] text-[13px]">
+                <EmailIcon />
+                <span className="ml-[10px]">aliakil.a2.dev@gmail.com </span>
+              </p>
+            </Fade>
+
             <div class="relative mt-5 mb-2">
               <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                 <svg

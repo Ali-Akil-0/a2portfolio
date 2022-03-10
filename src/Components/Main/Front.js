@@ -5,6 +5,10 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import PhotoOfTheWeek from "../../assets/PhotoOfTheWeek.png";
 import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
+import { Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+
+// import { Fade bottom } from "react-awesome-reveal";
 const Front = () => {
   return (
     <>
@@ -19,7 +23,7 @@ const Front = () => {
           <img src={PhotoOfTheWeek} alt="PhotoOfTheWeek" />
         </div>
         <div className="ml-[38px] ">
-          <p className="absolute animate-bounce  text-gray-600 opacity-50   justify-center mt-[85vh]  ml-[84vw]  text-md  z-[200] ">
+          <p className="absolute animate-bounce  text-gray-600 opacity-50   justify-center mt-[85vh]  ml-[84vw]  text-md  z-[19] ">
             <div className="flex bouncing_down flex-col max-w-[50px] items-center justify-between">
               <span className="  pr-[2px] pl-[20px] pb-[10px] transform -rotate-90">
                 down
@@ -47,41 +51,70 @@ const Front = () => {
               <div className="the_title  special_title   transition duration-200 ease-in-out font-[Work] text-[80px] leading-[70px] text-white">
                 {/* Title */}
                 <h1 className="mb-4 tracking-wide">
-                  <span className=" transition hover:border-b hover:border-[#08fdd8]  bg-transparent hover:shadow-[#08fdd8] hover:text-[#08fdd8] ease-in-out delay-150 hover:-translate-y-1 hover:text-[95px] duration-200 ">
-                    H
-                  </span>
-                  <span className="letter_hover">i</span>,
+                  <Zoom bottom>
+                    <div>
+                      <span className=" transition hover:border-b hover:border-[#08fdd8]  bg-transparent hover:shadow-[#08fdd8] hover:text-[#08fdd8] ease-in-out delay-150 hover:-translate-y-1 hover:text-[95px] duration-200 ">
+                        H
+                      </span>
+                      <span className="letter_hover">i</span>
+                      <span>,</span>
+                    </div>
+                  </Zoom>
+                  {/* </Fade> */}
                 </h1>
                 <h1 className="mb-4 tracking-wide">
-                  <span className="letter_hover">I</span>'
-                  <span className="letter_hover">m</span>{" "}
-                  <span className="letter_hover">A</span>
-                  <span className="letter_hover">l</span>
-                  <span className="letter_hover">i</span>
+                  {/* <Fade bottom> */}
+                  <Zoom bottom>
+                    <div>
+                      <span className="letter_hover">I'</span>
+                      {/* </Fade> */}
+                      {/* <Fade bottom> */}
+                      <span className="letter_hover">m</span> {/* </Fade> */}
+                      {/* <Fade bottom> */}
+                      <span className="letter_hover">A</span>
+                      {/* </Fade> */}
+                      {/* <Fade bottom> */}
+                      <span className="letter_hover">l</span>
+                      {/* </Fade> */}
+                      {/* <Fade bottom> */}
+                      <span className="letter_hover">i</span>
+                    </div>
+                  </Zoom>
                 </h1>
                 <h1 className="mb-4 tracking-wide">
-                  <span className="letter_hover">A</span>
-                  <span> </span>
-
-                  <span className="letter_hover">W</span>
-                  <span className="letter_hover">e</span>
-                  <span className="letter_hover">b</span>
-                  <span> </span>
-                  <span className="letter_hover">D</span>
-                  <span className="letter_hover">e</span>
-                  <span className="letter_hover">v</span>
-                  <span className="letter_hover">e</span>
-                  <span className="letter_hover">l</span>
-                  <span className="letter_hover">o</span>
-                  <span className="letter_hover">p</span>
-                  <span className="letter_hover">e</span>
-                  <span className="letter_hover">r</span>
+                  {/* <Fade bottom> */}
+                  <Zoom bottom>
+                    <div>
+                      <span className="letter_hover">A</span>
+                      {/* </Fade> */}
+                      <span> </span>
+                      {/* <Fade bottom> */}
+                      <span className="letter_hover">W</span>
+                      <span className="letter_hover">e</span>
+                      <span className="letter_hover">b</span>
+                      <span> </span>
+                      {/* </Fade> */}
+                      {/* <Fade bottom> */}
+                      <span className="letter_hover">D</span>
+                      <span className="letter_hover">e</span>
+                      <span className="letter_hover">v</span>
+                      <span className="letter_hover">e</span>
+                      <span className="letter_hover">l</span>
+                      <span className="letter_hover">o</span>
+                      <span className="letter_hover">p</span>
+                      <span className="letter_hover">e</span>
+                      <span className="letter_hover">r</span>
+                    </div>
+                  </Zoom>
+                  {/* </Fade> */}
                 </h1>
               </div>
-              <div className="mt-[30px] opacity-80  font-['sans-serif'] text-[20px] tracking-[1px] text-[#6e6e6e]">
-                {/* Paragraph */}
-                MERN Stack enthusiast
-              </div>
+              <Fade>
+                <div className="mt-[30px] opacity-80  font-['sans-serif'] text-[20px] tracking-[1px] text-[#6e6e6e]">
+                  {/* Paragraph */}
+                  MERN Stack enthusiast
+                </div>
+              </Fade>
             </div>
             <div className="flex-0.4 announcing announcing">
               <Announces />
@@ -90,17 +123,21 @@ const Front = () => {
 
           <div className=" p-2 cursor-pointer pl-10 z-1 CV  text-[#46acd1] mb-[-140px] ">
             {/* Button */}
-            <button className="hover:bg-[#46acd1] transition duration-300 ease-in-out hover:text-[#1d1d1d] hover:shadow-transparent border-2 shadow-md shadow-[#46acd1]  border-[#46acd1] bg-transparent px-10 py-1 text-[18px] font-semibold leading-10 tracking-[4px]">
-              <div className="flex items-center  justify-between px-4 w-[100px] ">
-                <p className="mr-2 font-bold">CV</p>
-                <DownloadIcon />
-              </div>
-            </button>
+            <Fade>
+              <button className="hover:bg-[#46acd1] transition duration-300 ease-in-out hover:text-[#1d1d1d] hover:shadow-transparent border-2 shadow-md shadow-[#46acd1]  border-[#46acd1] bg-transparent px-10 py-1 text-[18px] font-semibold leading-10 tracking-[4px]">
+                <div className="flex items-center  justify-between px-4 w-[100px] ">
+                  <p className="mr-2 font-bold">CV</p>
+                  <DownloadIcon />
+                </div>
+              </button>
+            </Fade>
           </div>
 
           {/* <div>test</div> */}
         </div>
-        <FrontAnimation />
+        <div className="frontAnimation">
+          <FrontAnimation />
+        </div>
       </div>
     </>
   );

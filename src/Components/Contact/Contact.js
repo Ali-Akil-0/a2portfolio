@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Map, { Marker } from "react-map-gl";
 import emailjs from "emailjs-com";
+import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
   const form = useRef();
@@ -30,16 +31,20 @@ const Contact = () => {
         <div className=" flex flex-[0.5] flex-col contactForm">
           <div className="] py-[30px] contact">
             <div>
-              <h1 className="text-[73px]  title text-center leading-[75px] mt-[5px] text-[#46acd1] the_title">
-                Contact me
-              </h1>
+              <Fade>
+                <h1 className="text-[73px]  title text-center leading-[75px] mt-[5px] text-[#46acd1] the_title">
+                  Contact me
+                </h1>
+              </Fade>
             </div>
             <div className="px-[90px]  mt-[40px]">
-              <p className="text-[white] text-[17px] hover:underline font-sans">
-                I’m interested in freelance opportunities – especially ambitious
-                or large projects. However, if you have other request or
-                question, don’t hesitate to use the form.
-              </p>
+              <Fade>
+                <p className="text-[white] text-[17px] hover:underline font-sans">
+                  I’m interested in freelance opportunities – especially
+                  ambitious or large projects. However, if you have other
+                  request or question, don’t hesitate to use the form.
+                </p>
+              </Fade>
             </div>
             <form
               ref={form}
@@ -79,9 +84,11 @@ const Contact = () => {
                   type="submit"
                   className="hover:bg-[#46acd1] text-[#46acd1]  hover:text-[#1d1d1d] hover:shadow-black   transition duration-300 ease-in-out border-2 items-end shadow-md shadow-[#46acd1]  border-[#46acd1] bg-transparent px-10 py-1 text-[18px] font-semibold leading-10 tracking-[4px]"
                 >
-                  <div className="flex items-center  justify-between px-4 w-[100px] ">
-                    <p className="mr-2 font-bold   ">Send </p>
-                  </div>
+                  <Fade>
+                    <div className="flex items-center  justify-between px-4 w-[100px] ">
+                      <p className="mr-2 font-bold   ">Send </p>
+                    </div>
+                  </Fade>
                 </button>
               </div>
             </form>
@@ -105,7 +112,7 @@ const Contact = () => {
                 offsetTop={-20}
                 offsetLeft={-7}
               >
-                <p className="animations3">📍</p>
+                <p className="animations3 marker ">📍</p>
               </Marker>
             </div>
           </Map>
