@@ -73,23 +73,29 @@ const Projects = () => {
 
             <div className="text-white grid gap-[25px] grid-cols-3 ProjectsGrid">
               <Fade>
-                <div className="Wrap relative z-[-1] ">
-                  <img
-                    src={A2zone}
-                    alt="ProjectImage"
-                    className="imageTransition z-[-1]"
-                  />
-                  <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-10 text-[19px] bottom-2 right-[10px] text-[#787878]" />
-                    {/* <a
-                      href="https://github.com/Ali-Akil-0"
+                <div className="Wrap relative ">
+                  <div className="opacity-40 block z-100">
+                    <a
+                      href="https://a2zone.web.app/"
                       target="_blank"
                       rel="noreferrer"
-                    > */}
-                    <Link to="/">
-                      <GitHubIcon className=" absolute z-10 bottom-2 right-[50px] text-[#787878]" />
-                    </Link>
-                    {/* </a> */}
+                    >
+                      <LanguageIcon className=" absolute z-100 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/A2Zone"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <GitHubIcon className=" absolute z-100 bottom-2 right-[50px] text-[#787878]" />
+                    </a>
+                  </div>
+                  <div className="block z-1 top-0">
+                    <img
+                      src={A2zone}
+                      alt="ProjectImage"
+                      className="imageTransition absolute z-1"
+                    />
                   </div>
                 </div>
               </Fade>
@@ -101,9 +107,15 @@ const Projects = () => {
                     className="imageTransition"
                   />
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
-                      href="https://github.com/Ali-Akil-0"
+                      href="https://practical-torvalds-47ebb5.netlify.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/gestion_des_evaluations"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -120,9 +132,15 @@ const Projects = () => {
                     className="imageTransition"
                   />
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
-                      href="https://github.com/Ali-Akil-0"
+                      href="https://a2lack.web.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/A2Lack"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -147,9 +165,15 @@ const Projects = () => {
                   />
 
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-300 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
-                      href="https://github.com/Ali-Akil-0"
+                      href="https://github.com/Ali-Akil-0/A2Zone"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon className=" absolute z-300 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/a2nb"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -166,9 +190,15 @@ const Projects = () => {
                     className="imageTransition"
                   />
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
-                      href="https://github.com/Ali-Akil-0"
+                      href="https://a2flix-38bdf.web.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/A2Flix"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -185,9 +215,15 @@ const Projects = () => {
                     className="imageTransition"
                   />
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
-                      href="https://github.com/Ali-Akil-0"
+                      href="https://a2plus-2b1dc.web.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/a2plus"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -204,9 +240,15 @@ const Projects = () => {
                     className="imageTransition"
                   />
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
-                      href="https://github.com/Ali-Akil-0"
+                      href="https://a2sla-542ff.web.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/a2sla"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -223,9 +265,15 @@ const Projects = () => {
                     className="imageTransition"
                   />
                   <div className="opacity-40">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
-                      href="https://github.com/Ali-Akil-0"
+                      href="https://a2tracker-c8b5d.web.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/a2tracker"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -242,9 +290,15 @@ const Projects = () => {
                     className="imageTransition"
                   />
                   <div className="opacity-40 z-200 ">
-                    <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     <a
-                      href="https://github.com/Ali-Akil-0"
+                      href="https://a2fy-8a533.web.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    </a>
+                    <a
+                      href="https://github.com/Ali-Akil-0/a2fy"
                       target="_blank"
                       rel="noreferrer"
                       className="z-200"
