@@ -61,7 +61,7 @@ const Skills = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <p className="text-[13px]  z-[150] mt-[30px] visit tracking-[2px] text-[#46acd1]">
+                  <p className="text-[13px] deleted_desc  z-[150] mt-[30px] visit tracking-[2px] text-[#46acd1]">
                     Visit my LinkedIn profile for more details or just contact
                     me.
                   </p>

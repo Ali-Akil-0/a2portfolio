@@ -260,7 +260,7 @@ body::-webkit-scrollbar {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   .That_extra {
-    height: 150vh;
+    height: 170vh;
     overflow-y: visible;
   }
   .bottomAnimations {
@@ -290,6 +290,9 @@ body::-webkit-scrollbar {
   .PFA {
     display: none;
     visibility: hidden;
+  }
+  .my_Skills {
+    height: 300vh;
   }
   .sky_animation {
     margin-top: 70vh;
@@ -398,8 +401,60 @@ li {
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 399px) {
   .my_Skills {
-    height: 200vh;
+    height: 270vh;
+  }
+  .That_extra {
+    height: 220vh;
+    overflow-y: visible;
+  }
+  .PFA {
+    height: 130vh;
+  }
+  .my_Skills {
+    height: 360vh;
+  }
+  .Education {
+    height: 150vh;
+  }
+}
+
+@media (max-width: 642px) {
+  .my_Skills {
+    height: 260vh;
+  }
+  .skillsDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sky_animation {
+    display: none;
+    visibility: hidden;
+  }
+  .newMain {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 642px) {
+  .my_Skills {
+    height: 260vh;
+  }
+  .newMain {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 407px) {
+  .deleted_desc {
+    display: none;
+    visibility: hidden;
+  }
+  .skills_desc {
+    margin-bottom: 50px;
+  }
+  .my_Skills {
+    height: 280vh;
   }
 }
