@@ -11,6 +11,14 @@ import A2zone from "../../../assets/A2zone.png";
 import FrontAnimation from "../FrontAnimation";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
+import a2zonevideo from "../../../videos/A2zone.gif";
+import a2Flix from "../../../videos/A2Flix.gif";
+import A2Fy from "../../../videos/A2Fy.gif";
+import A2hotelvideo from "../../../videos/A2Hotel.gif";
+import A2plus from "../../../videos/A2plus.gif";
+import A2sla from "../../../videos/A2sla.gif";
+import A2examsvideo from "../../../videos/A2exams.gif";
+
 import { Fade } from "react-awesome-reveal";
 import {
   BrowserRouter as Router,
@@ -96,6 +104,11 @@ const Projects = () => {
                       alt="ProjectImage"
                       className="imageTransition absolute z-1"
                     />
+                    <img
+                      className="video"
+                      src={a2zonevideo}
+                      alt="a2zoneVideo"
+                    />
                   </div>
                 </div>
               </Fade>
@@ -106,6 +119,7 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
+                  <img className="video" src={A2examsvideo} alt="a2zoneVideo" />
                   <div className="opacity-40">
                     <a
                       href="https://practical-torvalds-47ebb5.netlify.app"
@@ -163,7 +177,7 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
-
+                  <img className="video" src={A2hotelvideo} alt="a2zoneVideo" />
                   <div className="opacity-40">
                     <a
                       href="https://github.com/Ali-Akil-0/A2Zone"
@@ -189,6 +203,7 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
+                  <img className="video" src={a2Flix} alt="a2zoneVideo" />
                   <div className="opacity-40">
                     <a
                       href="https://a2flix-38bdf.web.app"
@@ -214,6 +229,7 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
+                  <img className="video" src={A2plus} alt="a2zoneVideo" />
                   <div className="opacity-40">
                     <a
                       href="https://a2plus-2b1dc.web.app"
@@ -239,6 +255,7 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
+                  <img className="video" src={A2sla} alt="a2zoneVideo" />
                   <div className="opacity-40">
                     <a
                       href="https://a2sla-542ff.web.app"
@@ -289,6 +306,7 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
+                  <img className="video" src={A2Fy} alt="a2zoneVideo" />
                   <div className="opacity-40 z-200 ">
                     <a
                       href="https://a2fy-8a533.web.app"
