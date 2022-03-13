@@ -16,6 +16,8 @@ import a2Flix from "../../../videos/A2Flix.gif";
 import A2Fy from "../../../videos/A2Fy.gif";
 import A2hotelvideo from "../../../videos/A2Hotel.gif";
 import A2plus from "../../../videos/A2plus.gif";
+import A2Lack from "../../../videos/A2Lack.gif";
+
 import A2sla from "../../../videos/A2sla.gif";
 import A2examsvideo from "../../../videos/A2exams.gif";
 
@@ -145,6 +147,8 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
+                  <img className="video" src={A2Lack} alt="a2zoneVideo" />
+
                   <div className="opacity-40">
                     <a
                       href="https://a2lack.web.app"
