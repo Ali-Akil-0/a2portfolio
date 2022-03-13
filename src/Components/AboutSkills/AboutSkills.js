@@ -40,7 +40,7 @@ const AboutSkills = () => {
 
   return (
     <div className="h-[80vh] overflow-y-hidden">
-      <span class="content  text-[white]"></span>
+      <span class="content  text-[#46acd1]"></span>
       <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js">
         {" "}
       </script>
