@@ -4,6 +4,7 @@ import FrontAnimation from "../FrontAnimation";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import AboutSkills from "../../AboutSkills/AboutSkills";
 import { Fade } from "react-awesome-reveal";
+import "../../../index.css";
 
 const About = () => {
   const myTags = [
@@ -49,7 +50,7 @@ const About = () => {
     <div className="flex snap-start flex-col overflow-hidden relative">
       <div className="about_me ">
         <div className="bg-[#1d1d1d] flex  h-[100vh]  overflow-y-hidden  ">
-          <div className="flex-[0.5] h-[300px] aboutSkills">
+          <div className="transition ease-in-out delay-150  flex-[0.5] h-[300px] aboutSkills">
             <AboutSkills />
           </div>
           <div className="flex-[0.5] about_me mt-[60px] about ml-[20px] pr-[30px] the_description">
@@ -62,20 +63,20 @@ const About = () => {
               <p className="text-[13px] text-white hover:underline ">
                 Hello! My name is Ali and I enjoy creating things that live on
                 the internet. My interest in web development started back in
-                2012 when I decided to try editing custom Tumblr themes — turns
-                out hacking together a custom reblog button taught me a lot
-                about HTML & CSS!
+                high school when I used to spend my days making hover animations
+                for fun — turns out those animations taught me a lot about HTML,
+                CSS & JS!
               </p>
             </Fade>
 
             <br />
             <Fade>
               <p className="text-[13px] text-white hover:underline">
-                Fast-forward to today, and I’ve had the privilege of working at
-                an advertising agency, a start-up, a huge corporation, and a
-                student-led design studio. My main focus these days is building
-                accessible, inclusive products and digital experiences at
-                Upstatement for a variety of clients.
+                Fast-forward to today, and I'm still exploring the immense web
+                dev world. My main focus these days is the craziest and most
+                diverse apps in terms of technologies used while being
+                accessible, inclusive,Friendly and professional at the same
+                time.
               </p>
             </Fade>
 
@@ -101,7 +102,7 @@ const About = () => {
                 <Fade>
                   <p>
                     <ArrowRightIcon className="text-sm text-[#46acd1]" />{" "}
-                    JavaScript (ES6+)
+                    Express.js
                   </p>
                 </Fade>
                 <Fade>
@@ -119,7 +120,7 @@ const About = () => {
                 <Fade>
                   <p>
                     <ArrowRightIcon className="text-sm text-[#46acd1]  " />{" "}
-                    WordPress
+                    Firebase
                   </p>
                 </Fade>
               </div>

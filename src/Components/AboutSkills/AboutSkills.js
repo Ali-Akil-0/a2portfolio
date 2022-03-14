@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TagCloud from "TagCloud";
 
 const AboutSkills = () => {
@@ -19,20 +19,24 @@ const AboutSkills = () => {
     "MongoDB",
     "Firestore",
   ];
-
+  const [color, setColor] = useState(["red", "white", "blue"]);
+  useEffect(() => {
+    setColor(["red", "white", "blue"]);
+  }, []);
   const tagCloud = TagCloud(".content", myTags, {
     // radius in px
     radius: 250,
 
     // animation speed
-    // slow, normal, fast
-    maxSpeed: "fast",
-    initSpeed: "fast",
+    // slow, norm, fast
+    maxSpeed: "normal",
+    initSpeed: "normal",
 
     // 0 = top
     // 90 = left
     // 135 = right-bottom
     direction: 135,
+    color: color,
 
     // interact with cursor move on mouse out
     keep: true,
@@ -40,7 +44,7 @@ const AboutSkills = () => {
 
   return (
     <div className="h-[80vh] overflow-y-hidden">
-      <span class="content  text-[#46acd1]"></span>
+      <span class="content   flex-1"></span>
       <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js">
         {" "}
       </script>

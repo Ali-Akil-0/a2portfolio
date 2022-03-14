@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0b9f393.css",
+    "main.js": "/static/js/main.b66c41e1.js",
+    "static/js/787.9ee4f74e.chunk.js": "/static/js/787.9ee4f74e.chunk.js",
+    "static/media/A2exams.gif": "/static/media/A2exams.9c77c92abfd8ca46fece.gif",
+    "static/media/A2plus.gif": "/static/media/A2plus.e28f2fcab022c87d20d8.gif",
+    "static/media/A2Flix.gif": "/static/media/A2Flix.d0db503e4b9ab758a453.gif",
+    "static/media/A2Hotel.gif": "/static/media/A2Hotel.ed9a79c67669fa80f6c7.gif",
+    "static/media/A2sla.gif": "/static/media/A2sla.fc69defad0ee1b7e6cc1.gif",
+    "static/media/A2zone.gif": "/static/media/A2zone.abf3571f28c6464597fd.gif",
+    "static/media/map.png": "/static/media/map.73de0e6d3cbd7471005c.png",
+    "static/media/InfoTech.png": "/static/media/InfoTech.48315a7a875444dbf197.png",
+    "static/media/A2Fy.gif": "/static/media/A2Fy.c06b5bd443415f43507b.gif",
+    "static/media/Ali_No_bg.png": "/static/media/Ali_No_bg.459bbd573c3ae00bc6b9.png",
+    "static/media/A2Lack.gif": "/static/media/A2Lack.3ffe4ef66b33a13e8fbe.gif",
+    "static/media/point.png": "/static/media/point.6fdc41d43aba9240af04.png",
+    "static/media/A2cars.png": "/static/media/A2cars.92ecc172719e1e5974b0.png",
+    "static/media/A2movies.png": "/static/media/A2movies.b758254c4e2fcd05efbb.png",
+    "static/media/A2moviesplus.png": "/static/media/A2moviesplus.7502a202772a88e7eee1.png",
+    "static/media/AIESEC.png": "/static/media/AIESEC.4e23f9c77ff9aceb704e.png",
+    "index.html": "/index.html",
+    "main.a0b9f393.css.map": "/static/css/main.a0b9f393.css.map",
+    "main.b66c41e1.js.map": "/static/js/main.b66c41e1.js.map",
+    "787.9ee4f74e.chunk.js.map": "/static/js/787.9ee4f74e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0b9f393.css",
+    "static/js/main.b66c41e1.js"
+  ]
+}

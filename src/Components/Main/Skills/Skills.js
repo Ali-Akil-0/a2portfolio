@@ -27,30 +27,32 @@ const Skills = () => {
             <div className="mt-[30px] skills the_description">
               <Fade>
                 <p className="text-[15px] text-white hover:underline ">
-                  Since beginning my journey as a freelance developer nearly 10
-                  years ago, I’ve done remote work for agencies, consulted for
-                  startups, and collaborated with talented people to create web
-                  products for both business and consumer use.
+                  Throught my continuous journey as a freelance developer and
+                  obsessions with building modern websites, I have accumulated a
+                  good experience with famous web dev technologies,while always
+                  keeping an eye out for what's new{" "}
+                  <span className=" text-gray-500 text-[10px]">
+                    (I can't wait to dive into web3)
+                  </span>
                 </p>
               </Fade>
 
               <br />
               <Fade>
                 <p className="text-[15px] text-white hover:underline">
-                  I create successful responsive websites that are fast, easy to
-                  use, and built with best practices. The main area of my
-                  expertise is front-end development, HTML, CSS, JS, building
-                  small and medium web apps, custom plugins, features,
-                  animations, and coding interactive layouts.
+                  I create smooth responsive websites that are fast, easy to
+                  use, and built with best practices . I work on both the
+                  front-end and the back-end, usually using MERN stack
+                  technologies, building small and medium web apps, animations,
+                  and coding interactive layouts.
                 </p>
               </Fade>
 
               <br />
               <Fade>
                 <p className="text-[15px] text-white hover:underline">
-                  I also have full-stack developer experience with popular
-                  open-source CMS like (WordPress, Drupal, Magento, Keystone.js
-                  and others) .
+                  I also teach web development for beginners mainly in HTML,
+                  css, JS and React
                 </p>
               </Fade>
             </div>

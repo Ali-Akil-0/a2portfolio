@@ -47,11 +47,10 @@ const Projects = () => {
             <div className="mt-[30px]">
               <Fade>
                 <p className="text-[15px] text-white hover:underline ">
-                  A small gallery of recent projects chosen by me. I've done
-                  them all together with amazing people from companies around
-                  the globe. It's only a drop in the ocean compared to the
-                  entire list. Interested to see some more? Visit my projects
-                  page
+                  A small gallery of recent projects chosen by me. I work mostly
+                  on my own but I have developed some interesting projects with
+                  amazing people either from school or friends that are
+                  passionate about web dev as well.
                 </p>
               </Fade>
             </div>

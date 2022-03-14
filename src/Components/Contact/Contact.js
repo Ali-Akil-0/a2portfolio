@@ -2,7 +2,13 @@ import React, { useRef } from "react";
 import Map, { Marker } from "react-map-gl";
 import emailjs from "emailjs-com";
 import { Fade } from "react-awesome-reveal";
-
+import "mapbox-gl/dist/mapbox-gl.css";
+import mapboxgl from "mapbox-gl";
+import the_map from "../../assets/map.png";
+// eslint-disable-next-line import/no-webpack-loader-syntax
+// import MapboxWorker from "worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker";
+mapboxgl.accessToken =
+  "pk.eyJ1IjoiYTJkZXYiLCJhIjoiY2wwYmp0amtrMHdnMDNpbGd5cXlmY3I2NiJ9.iwX0tU5YM1PIv4fw9jTz3Q";
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -95,7 +101,7 @@ const Contact = () => {
           </div>
         </div>
         <div className=" relative flex-[0.5] Map pointer-events-none ">
-          <Map
+          {/* <Map
             initialViewState={{
               longitude: -5.364421,
               latitude: 35.56246,
@@ -127,7 +133,9 @@ const Contact = () => {
             style={{ width: "100%", height: "100%" }}
             mapStyle="mapbox://styles/a2dev/cl0hbvkb8001814nsbxi9ts9c"
             mapboxAccessToken="pk.eyJ1IjoiYTJkZXYiLCJhIjoiY2wwYmp0amtrMHdnMDNpbGd5cXlmY3I2NiJ9.iwX0tU5YM1PIv4fw9jTz3Q"
-          ></Map>
+          ></Map> */}
+
+          <img src={the_map} alt="map" />
         </div>
       </div>
     </div>
