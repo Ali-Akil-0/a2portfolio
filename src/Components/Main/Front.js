@@ -7,6 +7,8 @@ import PhotoOfTheWeek from "../../assets/PhotoOfTheWeek.png";
 import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
 import { Zoom } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
+import CV_EN from "../../assets/Ali_Akil_PFA_En.pdf";
+import CV_FR from "../../assets/Ali_Akil_PFA_Fr.pdf";
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +19,12 @@ import {
 } from "react-router-dom";
 
 // import { Fade bottom } from "react-awesome-reveal";
+
+const download = (e) => {
+  e.preventDefault();
+  window.open(CV_EN);
+  window.open(CV_FR);
+};
 const Front = () => {
   return (
     <>
@@ -134,10 +142,14 @@ const Front = () => {
             {/* Button */}
             <Fade>
               <button className="hover:bg-[#46acd1] transition duration-300 ease-in-out hover:text-[#1d1d1d] hover:shadow-transparent border-2 shadow-md shadow-[#46acd1]  border-[#46acd1] bg-transparent px-10 py-1 text-[18px] font-semibold leading-10 tracking-[4px]">
-                <div className="flex items-center  justify-between px-4 w-[100px] ">
-                  <p className="mr-2 font-bold">CV</p>
-                  <DownloadIcon />
-                </div>
+                <a href="#" onClick={download}>
+                  <div className="w-[100%] h-[100%]">
+                    <div className="flex items-center  justify-between px-4 w-[100px] ">
+                      <p className="mr-2 font-bold">CV</p>
+                      <DownloadIcon />
+                    </div>
+                  </div>
+                </a>{" "}
               </button>
             </Fade>
           </div>
