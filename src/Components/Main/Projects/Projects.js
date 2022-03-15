@@ -83,33 +83,30 @@ const Projects = () => {
             <div className="text-white grid gap-[25px] grid-cols-3 ProjectsGrid">
               <Fade>
                 <div className="Wrap relative ">
-                  <div className="opacity-40 block z-100">
+                  <img
+                    src={A2zone}
+                    alt="ProjectImage"
+                    className="imageTransition"
+                  />
+                  <img className="video" src={a2zonevideo} alt="a2zoneVideo" />
+                  <div className="opacity-40">
                     <a
-                      href="https://a2zone.web.app/"
+                      href="https://musing-noether-881b7d.netlify.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <LanguageIcon className=" absolute z-100 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                      <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     </a>
                     <a
                       href="https://github.com/Ali-Akil-0/A2Zone"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <GitHubIcon className=" absolute z-100 bottom-2 right-[50px] text-[#787878]" />
+                      <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
                     </a>
-                  </div>
-                  <div className="block z-1 top-0">
-                    <img
-                      src={A2zone}
-                      alt="ProjectImage"
-                      className="imageTransition absolute z-1"
-                    />
-                    <img
-                      className="video"
-                      src={a2zonevideo}
-                      alt="a2zoneVideo"
-                    />
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      full e-commerce shop
+                    </p>
                   </div>
                 </div>
               </Fade>
@@ -136,6 +133,9 @@ const Projects = () => {
                     >
                       <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
                     </a>
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      exam management
+                    </p>
                   </div>
                 </div>
               </Fade>
@@ -157,12 +157,15 @@ const Projects = () => {
                       <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     </a>
                     <a
-                      href="https://github.com/Ali-Akil-0/A2Lack"
+                      href="https://github.com/Ali-Akil-0/A2messaging"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
                     </a>
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      Instant messaging
+                    </p>
                   </div>
                 </div>
               </Fade>
@@ -182,13 +185,9 @@ const Projects = () => {
                   />
                   <img className="video" src={A2hotelvideo} alt="a2zoneVideo" />
                   <div className="opacity-40">
-                    <a
-                      href="https://github.com/Ali-Akil-0/A2Zone"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <LanguageIcon className=" absolute z-300 text-[19px] bottom-2 right-[10px] text-[#787878]" />
-                    </a>
+                    {/* <a href="#" target="_blank" rel="noreferrer"> */}
+                    <LanguageIcon className=" absolute z-300 text-[19px] bottom-2 right-[10px] text-[#787878]" />
+                    {/* </a> */}
                     <a
                       href="https://github.com/Ali-Akil-0/a2nb"
                       target="_blank"
@@ -196,6 +195,9 @@ const Projects = () => {
                     >
                       <GitHubIcon className=" absolute z-300 bottom-2 right-[50px] text-[#787878]" />
                     </a>
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      House renting
+                    </p>
                   </div>
                 </div>
               </Fade>
@@ -216,12 +218,15 @@ const Projects = () => {
                       <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     </a>
                     <a
-                      href="https://github.com/Ali-Akil-0/A2Flix"
+                      href="https://github.com/Ali-Akil-0/A2movies"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
                     </a>
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      Movies streaming service
+                    </p>
                   </div>
                 </div>
               </Fade>
@@ -242,12 +247,15 @@ const Projects = () => {
                       <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     </a>
                     <a
-                      href="https://github.com/Ali-Akil-0/a2plus"
+                      href="https://github.com/Ali-Akil-0/A2Moviesplus"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
                     </a>
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      Movies streaming service
+                    </p>
                   </div>
                 </div>
               </Fade>
@@ -268,12 +276,15 @@ const Projects = () => {
                       <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     </a>
                     <a
-                      href="https://github.com/Ali-Akil-0/a2sla"
+                      href="https://github.com/Ali-Akil-0/A2cars"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
                     </a>
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      Tesla website Clone
+                    </p>
                   </div>
                 </div>
               </Fade>
@@ -299,6 +310,9 @@ const Projects = () => {
                     >
                       <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
                     </a>
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      Covid-10 tracker
+                    </p>
                   </div>
                 </div>
               </Fade>
@@ -319,13 +333,16 @@ const Projects = () => {
                       <LanguageIcon className=" absolute z-50 text-[19px] bottom-2 right-[10px] text-[#787878]" />
                     </a>
                     <a
-                      href="https://github.com/Ali-Akil-0/a2fy"
+                      href="https://github.com/Ali-Akil-0/A2music"
                       target="_blank"
                       rel="noreferrer"
                       className="z-200"
                     >
                       <GitHubIcon className=" absolute z-50 bottom-2 right-[50px] text-[#787878]" />
                     </a>
+                    <p className=" absolute z-50 text-sm bottom-2 left-[8px] text-[#787878]">
+                      music streaming service
+                    </p>
                   </div>
                 </div>
               </Fade>
