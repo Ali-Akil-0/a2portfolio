@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.610ce631.css",
-    "main.js": "/static/js/main.6d8ee84b.js",
+    "main.js": "/static/js/main.0f36b2b0.js",
     "static/js/787.9ee4f74e.chunk.js": "/static/js/787.9ee4f74e.chunk.js",
     "static/media/A2exams.gif": "/static/media/A2exams.9c77c92abfd8ca46fece.gif",
     "static/media/A2plus.gif": "/static/media/A2plus.e28f2fcab022c87d20d8.gif",
@@ -9,8 +9,8 @@
     "static/media/A2Hotel.gif": "/static/media/A2Hotel.ed9a79c67669fa80f6c7.gif",
     "static/media/A2sla.gif": "/static/media/A2sla.fc69defad0ee1b7e6cc1.gif",
     "static/media/A2zone.gif": "/static/media/A2zone.abf3571f28c6464597fd.gif",
-    "static/media/Ali_Akil_PFA_Fr.pdf": "/static/media/Ali_Akil_PFA_Fr.ffea09cd617054b519c6.pdf",
-    "static/media/Ali_Akil_PFA_En.pdf": "/static/media/Ali_Akil_PFA_En.834a4d63d7418ebae70d.pdf",
+    "static/media/Ali_Akil_PFA_Fr.pdf": "/static/media/Ali_Akil_PFA_Fr.b515087c1fd859ee7cda.pdf",
+    "static/media/Ali_Akil_PFA_En.pdf": "/static/media/Ali_Akil_PFA_En.e5fdd29cd27dc7e05495.pdf",
     "static/media/map.png": "/static/media/map.73de0e6d3cbd7471005c.png",
     "static/media/InfoTech.png": "/static/media/InfoTech.48315a7a875444dbf197.png",
     "static/media/A2Fy.gif": "/static/media/A2Fy.c06b5bd443415f43507b.gif",
@@ -23,11 +23,11 @@
     "static/media/AIESEC.png": "/static/media/AIESEC.4e23f9c77ff9aceb704e.png",
     "index.html": "/index.html",
     "main.610ce631.css.map": "/static/css/main.610ce631.css.map",
-    "main.6d8ee84b.js.map": "/static/js/main.6d8ee84b.js.map",
+    "main.0f36b2b0.js.map": "/static/js/main.0f36b2b0.js.map",
     "787.9ee4f74e.chunk.js.map": "/static/js/787.9ee4f74e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.610ce631.css",
-    "static/js/main.6d8ee84b.js"
+    "static/js/main.0f36b2b0.js"
   ]
 }
