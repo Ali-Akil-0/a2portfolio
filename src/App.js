@@ -9,6 +9,7 @@ import Skills from "../src/Components/Main/Skills/Skills";
 import Projects from "../src/Components/Main/Projects/Projects";
 import PFA from "../src/Components/Main/Announces";
 import Contact from "../src/Components/Contact/Contact";
+import Front from "./Components/Main/Front";
 const APP = () => {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ const APP = () => {
           <div className="flex-[0.1] sidebarLeft ">
             <Sidebar />
           </div>
+
           <main className="flex-[0.9] The_main relative">
             {/* Front */}
             <Header />
@@ -26,7 +28,29 @@ const APP = () => {
                 path="/"
                 element={
                   <>
-                    <Main />
+                    {/* <Main /> */}
+
+                    <div className="  bg-[#1d1d1d]	">
+                      <div id="Main">
+                        <Front />
+                      </div>
+                      <div id="About">
+                        <About />
+                      </div>
+                      <div id="Education">
+                        <Education />
+                      </div>
+                      <div id="Skills">
+                        <Skills />
+                      </div>
+                      <div id="Projects">
+                        <Projects />
+                      </div>
+
+                      <div id="Contact">
+                        <Contact />
+                      </div>
+                    </div>
                   </>
                 }
               />
@@ -34,7 +58,9 @@ const APP = () => {
                 path="/About"
                 element={
                   <>
-                    <About />
+                    <div className="bg-[#1d1d1d]	">
+                      <About />
+                    </div>
                   </>
                 }
               />
@@ -66,7 +92,9 @@ const APP = () => {
                 path="/PFA"
                 element={
                   <>
-                    <PFA />
+                    <div className="bg-[#1d1d1d] h-[100vh]	">
+                      <PFA />
+                    </div>
                   </>
                 }
               />

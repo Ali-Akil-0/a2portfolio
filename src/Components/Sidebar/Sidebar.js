@@ -3,12 +3,21 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 import Ali from "../../assets/Ali_No_bg.png";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
+  // Link,
   useRouteMatch,
   useParams,
 } from "react-router-dom";
@@ -23,7 +32,14 @@ const Sidebar = () => {
         >
           <div className="flex flex-col">
             <div className="md:w-100 md:h-100 relative ml-[10px] mt-[10px] mb-[10px]  h-20 w-20">
-              <Link to="/">
+              <Link
+                activeClass="active"
+                to="Main"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
+              >
                 <img
                   src={Ali}
                   layout="fill"
@@ -43,19 +59,54 @@ const Sidebar = () => {
           </div>
           <div className=" border-1 mt-5 flex w-[100%] flex-grow flex-col items-center border-t border-gray-500 bg-[#181818] shadow-lg">
             <div className="flex flex-1 flex-col">
-              <Link to="/About">
+              <Link
+                activeClass="active"
+                to="About"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
+              >
                 <SidebarCols title="About" />
               </Link>
-              <Link to="/Education">
+              <Link
+                activeClass="active"
+                to="Education"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
+              >
                 <SidebarCols title="Education" />
               </Link>
-              <Link to="/Skills">
+              <Link
+                activeClass="active"
+                to="Skills"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
+              >
                 <SidebarCols title="Skills" />
               </Link>
-              <Link to="/Projects">
+              <Link
+                activeClass="active"
+                to="Projects"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
+              >
                 <SidebarCols title="Projects" />
               </Link>
-              <Link to="/Contact">
+              <Link
+                activeClass="active"
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
+              >
                 <SidebarCols title="Contact me" contact="true" />
               </Link>
             </div>

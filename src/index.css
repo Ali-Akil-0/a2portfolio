@@ -542,3 +542,35 @@ li {
     color: #649eff;
   }
 }
+
+/* @media (max-width: 856px) {
+  .testing_header {
+    margin-left: 95%;
+    top: 0;
+  }
+} */
+.testing_header {
+  margin-left: 90%;
+  top: 0;
+}
+
+@media (min-width: 940px) {
+  .testing_header {
+    margin-left: 93%;
+    top: 0;
+  }
+}
+
+@media (min-width: 1078px) {
+  .testing_header {
+    margin-left: 94%;
+    top: 0;
+  }
+}
+
+@media (max-width: 490px) {
+  .testing_header {
+    margin-left: 87%;
+    top: 0;
+  }
+}

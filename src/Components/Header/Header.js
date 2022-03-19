@@ -17,8 +17,9 @@ import {
 
 const Header = () => {
   const [show, setshow] = useState(false);
+
   return (
-    <div className=" The_Nav absolute   top-0 z-[300] p-[10px] right-0">
+    <div className=" The_Nav sticky testing_header right-0 h-0 first-line: z-[300] ">
       <div className="border-1  border-[blue]">
         <IconButton>
           <div
@@ -43,7 +44,7 @@ const Header = () => {
               </div>
             </div>
             <div className="md:w-100 md:h-100 relative ml-[40px] mt-[10px] mb-[8px]  h-20 w-20">
-              <Link to="/">
+              <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
                 <img
                   src={Ali}
                   layout="fill"
@@ -62,16 +63,34 @@ const Header = () => {
             </div>
             <div className="flex  flex-col justify-between">
               <div>
-                <Link to="/About">
+                <Link
+                  to="/About"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   <li>About</li>
                 </Link>
-                <Link to="/Education">
+                <Link
+                  to="/Education"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   <li>Education</li>
                 </Link>
-                <Link to="/Skills">
+                <Link
+                  to="/Skills"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   <li>Skills</li>
                 </Link>
-                <Link to="/Skills">
+                <Link to="/Projects">
                   <li>Projects</li>
                 </Link>
                 <Link to="/PFA">

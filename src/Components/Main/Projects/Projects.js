@@ -88,6 +88,7 @@ const Projects = () => {
                     alt="ProjectImage"
                     className="imageTransition"
                   />
+
                   <img className="video" src={a2zonevideo} alt="a2zoneVideo" />
                   <div className="opacity-40">
                     <a
